@@ -1,0 +1,80 @@
+/* Variables */
+/* Global */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #c3cfe2;
+  height: auto;
+}
+
+/* Styling social media buttons */
+.social-media {
+  position: fixed;
+  right: -250px;
+  top: 150px;
+  height: auto;
+}
+
+.social-media__button {
+  position: relative;
+  width: 300px;
+  height: 35px;
+  padding: 20px;
+  list-style: none;
+}
+
+.social-media__button:hover {
+  right: 250px;
+}
+
+.social-media__link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-media__icon {
+  display: inline-block;
+  width: 50px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+
+.social-media__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  -webkit-text-decoration: underline solid #fff;
+          text-decoration: underline solid #fff;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.social-media .blog {
+  background-color: #e17b77;
+}
+
+.social-media .twitter {
+  background-color: #00aced;
+}
+
+.social-media .linkedin {
+  background-color: #007bb6;
+}
+
+.social-media .facebook {
+  background-color: #3b5998;
+}
+
+.social-media .github {
+  background-color: #333;
+}
+/*# sourceMappingURL=style.css.map */

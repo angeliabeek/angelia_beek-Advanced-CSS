@@ -1,0 +1,70 @@
+@import "../styles/constants";
+
+/* Global */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: $color-background;
+    height: auto;
+}
+
+/* Styling social media buttons */
+
+.social-media {
+    position: fixed;
+    right: -250px;
+    top: 150px;
+    height: auto;
+    &__button {
+        position: relative;
+        width: 300px;
+        height: 35px;
+        padding: 20px;
+        list-style: none;
+        &:hover {
+            right: 250px; 
+        }
+    }
+    &__link {
+        display: block;
+        color: $color-text;
+        text-decoration: none;
+    } 
+    &__icon {
+        display: inline-block;
+        width: 50px;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 30px;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+    }
+    &__text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-decoration: underline solid $color-text;
+        text-align: left;
+        margin-left: 30px;
+    }
+    & .blog {
+        background-color: $color-blog;
+    }
+    & .twitter {
+        background-color: $color-twitter;
+    }
+    & .linkedin {
+        background-color: $color-linkedin;
+    }
+    & .facebook {
+        background-color: $color-facebook;
+    }
+    & .github {
+        background-color: $color-github;
+    }
+}
